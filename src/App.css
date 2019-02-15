@@ -1,18 +1,19 @@
 .App {
   text-align: center;
-  background-color: #282c34;
+  background-color: #01DF3A;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(80px + 2vmin);
+  font-family: papyrus;
+  color: black;
 }
 
 
 .more {
-  background: green;
+  background: #58FA82;
   margin-top: 40px;
   padding: 10px;
   border: none;
@@ -22,6 +23,8 @@
   transition: background 0.2s;
   cursor: pointer;
   display: block;
+  font-family: Palatino;
+  font-style: oblique;
 }
 .more:hover {
   background: #00aa00;
@@ -32,7 +35,7 @@
   bottom: 20px;
   right: 20px;
   background: green;
-  padding: 8px 10px;
+  padding: 10px 15px;
   border: none;
   border-radius: 5px;
   color: white;
